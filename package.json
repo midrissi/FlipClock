@@ -1,0 +1,42 @@
+{
+    "name": "FlipClock",
+    "studioName": "FlipClock",
+    "category": "Custom Widgets",
+    "iconPath": "/icons/widget.png",
+    "author": "Widget Developer",
+    "contributors": [
+        "Developer 1",
+        "Developer 2"
+    ],
+    "version": "1.0.0",
+    "copyright": "(c) 2014 Widget Developer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/developer/Widget.git"
+    },
+    "keywords": ["wakanda", "widget"],
+    "engines": {"wakanda": ">= 8"},
+    "license": "MIT",
+    "loadDependencies": [
+        {"id": "Widget_V2"},
+        {"id": "FlipClock/js/libs/base.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FlipClock/js/jquery.1.10.2.min.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FlipClock/js/flipclock.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FlipClock/js/faces/counter.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FlipClock/js/faces/hourlycounter.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FlipClock/js/faces/dailycounter.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FlipClock/js/faces/minutecounter.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FlipClock/js/faces/twentyfourhourclock.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FlipClock/js/faces/twelvehourclock.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FlipClock/js/lang/ar-ar.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FlipClock/js/lang/de-de.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FlipClock/js/lang/en-us.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FlipClock/js/lang/es-es.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FlipClock/js/lang/fr-ca.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FlipClock/js/lang/ru-ru.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FlipClock/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FlipClock/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FlipClock/css/flipclock.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "FlipClock/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}
